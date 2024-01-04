@@ -1,0 +1,102 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    color: white;
+    background-color: #023047;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    animation-name: header;
+    animation-duration: 2.5s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes header {
+    from {
+        height: 50rem;
+    }
+    to {
+        height: 3.2rem;
+    }
+}
+
+.kalam-img2 {
+    background-color: #ffda7c;
+    display: flex;
+    justify-content: center;
+}
+.img {
+    background-color: pink;
+    background-image: url(kalam.png);
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.container-flex {
+    background-color: #ffda7c;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    color: white;
+    text-shadow: -1px 0px 5px black;
+    border: 5px solid #023047;
+    background-color: #219ebc;
+    width: 65rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    padding-bottom: 0px;
+    box-shadow: 10px 10px 10px #fca311;
+}
+.para {
+    margin: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    animation-name: para;
+    animation-delay: 3.5s;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+}
+@keyframes para {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.footer-div {
+    height: 80px;
+    background-color: #ffda7c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btp {
+    color: black;
+    background-color: #fca311;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
